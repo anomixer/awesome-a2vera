@@ -20,7 +20,7 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 - [A2VERA — Lectronz (Wavicle)](https://lectronz.com/products/a2vera-apple-ii-vera-video-card-with-fm-audio) — Apple II adapter board (II, II+, //e, IIgs) for the VERA video card, with FM audio
 - [A2VERA — Tindie](https://www.tindie.com/products/wavicle/a2vera-apple-ii-vera-video-card-with-fm-audio/) — Alternate store listing for the A2VERA board
 - [VERA 8-Bit Video Card — Tindie (Wavicle)](https://www.tindie.com/products/wavicle/vera-8-bit-video-card/) — The VERA video card itself (also used in the OtterX)
-- [Commander X16](https://www.commanderx16.com/) — Home platform of the VERA FPGA core, designed by Frank van den Hoef
+- [VERA Module](https://github.com/fvdhoef/vera-module) — The original VERA FPGA module, designed by Frank van den Hoef
 
 ## Emulators
 
