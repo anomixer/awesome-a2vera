@@ -21,6 +21,8 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 - [A2VERA — Tindie](https://www.tindie.com/products/wavicle/a2vera-apple-ii-vera-video-card-with-fm-audio/) — Alternate store listing for the A2VERA board
 - [VERA 8-Bit Video Card — Tindie (Wavicle)](https://www.tindie.com/products/wavicle/vera-8-bit-video-card/) — The VERA video card itself (also used in the OtterX)
 - [VERA Module](https://github.com/fvdhoef/vera-module) — The original VERA FPGA module, designed by Frank van den Hoef
+- [OPM2151 Drop-in Replacement for YM2151 — Lectronz (Wavicle)](https://lectronz.com/products/opm2151-drop-in-replacement-for-ym2151) — Pin-compatible, cycle-accurate FPGA replacement for the vintage Yamaha YM2151 FM-synthesis chip, included with the A2VERA kit
+- [OPM2151 — Tindie](https://www.tindie.com/products/wavicle/opm2151-drop-in-replacement-for-ym2151/) — Alternate store listing for the OPM2151
 
 ## Emulators
 
