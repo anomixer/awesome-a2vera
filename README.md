@@ -45,7 +45,7 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 
 ## Talks & Videos
 
-- [KansasFest 2026 session recording](https://www.youtube.com/watch?v=XbqqLpzCAD4) — A2VERA demoed running H.E.R.O. with smooth performance (~41:08)
+- [KansasFest 2026 session recording](https://www.youtube.com/watch?v=XbqqLpzCAD4) — A2VERA presentation by Michael Morrison
 
 ## Credits
 
