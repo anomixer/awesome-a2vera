@@ -52,7 +52,7 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 - **Frank van den Hoef** — Creator and hardware designer of the VERA FPGA system
 - **Michael Steil** — Commander X16 emulator architecture and core implementation
 - **David Murray (The 8-Bit Guy)** — Creator and visionary of the Commander X16 project
-- **Michael Morrison ([@code-bythepound](https://github.com/code-bythepound))** — Ported the VERA core to TypeScript and adapted it for Apple II / web emulation
+- **Michael Morrison ([@code-bythepound](https://github.com/code-bythepound))** — Initiator of the A2VERA project; ported the VERA core to TypeScript and adapted it for Apple II / web emulation
 
 ## Contributing
 
