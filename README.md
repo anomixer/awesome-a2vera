@@ -11,6 +11,7 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 - [Games](#games)
 - [Converters & Compilers](#converters--compilers)
 - [Tools & Utilities](#tools--utilities)
+- [Documentation](#documentation)
 - [Talks & Videos](#talks--videos)
 - [Credits](#credits)
 - [Contributing](#contributing)
@@ -44,6 +45,10 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 - [veramusic](https://github.com/anomixer/veramusic) — Apple II VERA music demo kit
 - [verasdedit](https://github.com/anomixer/verasdedit) — Apple II VERA SD card hex sector editor
 - [a2vera](https://github.com/misterblack1/a2vera) — Test programs for driving the VERA module on a real Apple II (assembly)
+
+## Documentation
+
+- [Understanding VERA (BoxLambda)](https://epsilon537.github.io/boxlambda/understanding-vera/) — Deep dive into the VERA architecture: VRAM block layout, scanline rendering, palette and sprite pipeline, and the iCE40 UltraPlus 5K implementation
 
 ## Talks & Videos
 
