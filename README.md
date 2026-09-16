@@ -24,6 +24,7 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 - [VERA Module](https://github.com/fvdhoef/vera-module) — The original VERA FPGA module, designed by Frank van den Hoef
 - [OPM2151 Drop-in Replacement for YM2151 — Lectronz (Wavicle)](https://lectronz.com/products/opm2151-drop-in-replacement-for-ym2151) — Pin-compatible, cycle-accurate FPGA replacement for the vintage Yamaha YM2151 FM-synthesis chip, included with the A2VERA kit
 - [OPM2151 — Tindie](https://www.tindie.com/products/wavicle/opm2151-drop-in-replacement-for-ym2151/) — Alternate store listing for the OPM2151
+- [Open VERA Module](https://github.com) — A community-maintained open-source fork of the VERA module, providing KiCad hardware designs, FPGA firmware (bitstream), and testing tools that are highly relevant for understanding or DIY-building the core VERA card used by A2VERA.
 
 ## Emulators
 
