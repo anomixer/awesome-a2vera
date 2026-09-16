@@ -41,7 +41,7 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 - [Prog8](https://github.com/irmen/prog8) — A structured, high-level programming language and compiler for 6502/65C02 machines. It features native, built-in support for VERA registers and VeraFX hardware capabilities, making it an excellent alternative to assembly for A2VERA software development.
 - [smb1transpiler](https://github.com/fletto2/smb1transpiler) — Rebuild the A2VERA Apple II + VERA port of Super Mario Bros. 1 from your own NES and SNES ROMs, with only a C compiler; ships no Nintendo data
 
-## Tools & Utilities
+## Tools, DemoKits & Utilities
 
 - [veratest](https://github.com/anomixer/veratest) — VERA graphics & sound test demo disk for real Apple II hardware and Apple2TS, including a 32MB 375-image 256-color musical slideshow
 - [veramusic](https://github.com/anomixer/veramusic) — Apple II VERA music demo kit
