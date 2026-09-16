@@ -33,7 +33,7 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 ## Games
 
 - [Time Pilot (VERA)](https://github.com/StewBC/Time-Pilot) — Full port of Konami's 1982 arcade classic to Apple II + VERA: dual-slot support, 128 hardware sprites with 32-way rotation, VRAM-streamed PCM/PSG audio, and zero-disk runtime; featured in Apple2TS New Releases ([PR #445](https://github.com/ct6502/apple2ts/pull/445))
-- [H.E.R.O. (Mine Rescue) — Apple II VERA Port](https://github.com/anomixer/x16-hero-vera) — Full port of the Activision classic with scrolling tilemaps, dynamic multi-frame sprites and a PSG chiptune soundtrack (coming soon)
+- [H.E.R.O. (Mine Rescue) — Apple II VERA Port](https://github.com/anomixer/x16-hero-vera) — Full port of the Activision classic with scrolling tilemaps, dynamic multi-frame sprites and a PSG chiptune soundtrack (W.I.P.)
 
 ## Converters & Compilers
 
