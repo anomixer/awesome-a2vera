@@ -32,6 +32,7 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 
 ## Games
 
+- [Freegemas (Apple //e VERA)](https://github.com/anomixer/freegemas) — Apple //e port of the open-source Bejeweled-style game, with 320×240 graphics, VERA hardware-sprite gems, keyboard and mouse controls, and PSG music / PCM effects.
 - [H.E.R.O. (Mine Rescue)](https://github.com/anomixer/x16-hero-vera) — Apple II + VERA port of the Activision classic, featuring smooth multi-directional scrolling tilemaps, dynamic multi-frame sprites, and an authentic PSG chiptune soundtrack (W.I.P.).
 - [Time Pilot (VERA)](https://github.com/anomixer/Time-Pilot) — Full port of Konami's 1982 arcade classic to Apple II + VERA: dual-slot support, 128 hardware sprites with 32-way rotation, VRAM-streamed PCM/PSG audio, and zero-disk runtime; featured in Apple2TS New Releases ([PR #445](https://github.com/ct6502/apple2ts/pull/445)).
 
@@ -48,7 +49,7 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 - [a2vera](https://github.com/misterblack1/a2vera) — 6502 assembly test routines and diagnostics suite for driving the VERA module on a real Apple II, including SD-DIAG, SD-HIRES, and SD-SLIDES.
 - [Furnace](https://github.com/tildearrow/furnace) — Multi-system chiptune tracker with first-class native support for both the VERA 16-channel PSG and the YM2151 / OPM2151 FM synthesis chips (Commander X16 / cross-platform VERA tool).
 - [veramusic](https://github.com/anomixer/veramusic) — Apple II VERA music demo disk highlighting PSG chiptune playback and multi-voice sound synthesis.
-- [verasdtool](https://github.com/anomixer/verasdtool) — Interactive on-screen hexadecimal sector editor and FAT32 formatter for VERA SPI SD cards on Apple II.
+- [verasdtool](https://github.com/anomixer/verasdtool) — Four Apple II VERA SD tools: VeraSDEdit (hex sector editor), VeraSDFormat (FAT32 formatter), VeraSD-IFS-ProDOS (resident ProDOS block driver for raw ProDOS volumes up to 32 MiB), and VeraSD-IFS-FAT32 (preliminary FAT32 client for catalog/read/test-write; not yet a real IFS driver).
 - [veratest](https://github.com/anomixer/veratest) — Comprehensive graphics and sound test demo disk for real Apple II hardware and Apple2TS, featuring a 32MB 375-image 256-color musical slideshow.
 - [ZSound](https://github.com/ZeroByteOrg/zsound) — Standardized audio engine and toolset for VERA PSG, PCM, and YM2151 FM audio, defining the streaming `.ZSM` music format (Commander X16 audio framework).
 
