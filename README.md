@@ -4,6 +4,8 @@
 
 VERA is the FPGA graphics and sound system designed by Frank van den Hoef for the Commander X16, featuring tile and bitmap modes up to 256 colors, 128 hardware sprites, and a 16-voice PSG + PCM audio engine. With the **A2VERA** adapter card, the Apple II, II+, //e, and IIgs can drive a real VERA card in Slot 2 (`$C200`) or Slot 4 (`$C400`) — powering a growing ecosystem of emulators, demos, development tools, and arcade-grade game ports.
 
+The A2VERA concept and emulator integration were initially pioneered by Michael Morrison, as presented in his [KansasFest 2026 Session](https://www.youtube.com/watch?v=XbqqLpzCAD4).
+
 ## Contents
 
 - [Hardware](#hardware)
@@ -32,7 +34,8 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 
 ## Games
 
-- [Freegemas (Apple //e VERA)](https://github.com/anomixer/freegemas) — Apple //e port of the open-source Bejeweled-style game, with 320×240 graphics, VERA hardware-sprite gems, keyboard and mouse controls, and PSG music / PCM effects.
+- [cx16-othello (VERA)](https://github.com/anomixer/cx16-othello-vera) — Apple II + VERA port of the venerable Othello (reversi) game, featuring mouse click support for menu / font (W.I.P.).
+- [Freegemas (Apple //e VERA)](https://github.com/anomixer/freegemas) — Apple //e port of the open-source Bejeweled-style game, with 320×240 graphics, VERA hardware-sprite gems, keyboard and mouse controls (supports direct mouse operation in VERA Monitor [PR #491](https://github.com/ct6502/apple2ts/pull/491)), and PSG music / PCM effects.
 - [H.E.R.O. (Mine Rescue)](https://github.com/anomixer/x16-hero-vera) — Apple II + VERA port of the Activision classic, featuring smooth multi-directional scrolling tilemaps, dynamic multi-frame sprites, and an authentic PSG chiptune soundtrack (W.I.P.).
 - [Time Pilot (VERA)](https://github.com/anomixer/Time-Pilot) — Full port of Konami's 1982 arcade classic to Apple II + VERA: dual-slot support, 128 hardware sprites with 32-way rotation, VRAM-streamed PCM/PSG audio, and zero-disk runtime; featured in Apple2TS New Releases ([PR #445](https://github.com/ct6502/apple2ts/pull/445)).
 
@@ -66,10 +69,10 @@ VERA is the FPGA graphics and sound system designed by Frank van den Hoef for th
 
 - **Adrian Black ([@misterblack1](https://github.com/misterblack1))** — Creator of the `a2vera` hardware test and diagnostic suite (SD-DIAG, SD-HIRES, SD-SLIDES).
 - **David Murray (The 8-Bit Guy)** — Creator and visionary of the Commander X16 project.
-- **Frank van den Hoef** — Creator and hardware designer of the VERA FPGA system.
+- **Frank van den Hoef ([@fvdhoef](https://github.com/fvdhoef))** — Creator and hardware designer of the VERA FPGA system.
+- **Joe "Wavicle" Burks ([@jburks](https://github.com/jburks))** — Hardware designer and creator of the A2VERA adapter board and OPM2151 FM module.
 - **Michael Morrison ([@code-bythepound](https://github.com/code-bythepound))** — Initiator of the A2VERA emulator project; creator of the VERA TypeScript core port for Apple II emulation in Apple2TS.
-- **Michael Steil** — Commander X16 emulator architecture and core implementation.
-- **Wavicle** — Hardware designer and creator of the A2VERA adapter board and OPM2151 FM module.
+- **Michael Steil ([@mist64](https://github.com/mist64))** — Creator of the Commander X16 emulator and architecture.
 
 ## Contributing
 
