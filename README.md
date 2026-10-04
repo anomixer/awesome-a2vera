@@ -36,7 +36,7 @@ The A2VERA concept and emulator integration were initially pioneered by Michael 
 
 - [cx16-othello (VERA)](https://github.com/anomixer/cx16-othello-vera) — Apple II + VERA port of the venerable Othello (reversi) game, featuring mouse click support for menu / font (W.I.P.).
 - [Freegemas (Apple //e VERA)](https://github.com/anomixer/freegemas) — Apple //e port of the open-source Bejeweled-style game, with 320×240 graphics, VERA hardware-sprite gems, keyboard and mouse controls (supports direct mouse operation in VERA Monitor [PR #491](https://github.com/ct6502/apple2ts/pull/491)), and PSG music / PCM effects.
-- [H.E.R.O. (Mine Rescue)](https://github.com/anomixer/x16-hero-vera) — Apple II + VERA port of the Activision classic, featuring smooth multi-directional scrolling tilemaps, dynamic multi-frame sprites, and an authentic PSG chiptune soundtrack (W.I.P.).
+- [H.E.R.O. (Mine Rescue)](https://github.com/anomixer/x16-hero-vera) — Apple II + VERA port of the Activision classic, featuring smooth multi-directional scrolling tilemaps, dynamic multi-frame sprites, and an authentic PSG chiptune soundtrack; featured in Apple2TS New Releases ([PR #500](https://github.com/ct6502/apple2ts/pull/500)).
 - [Time Pilot (VERA)](https://github.com/anomixer/Time-Pilot) — Full port of Konami's 1982 arcade classic to Apple II + VERA: dual-slot support, 128 hardware sprites with 32-way rotation, VRAM-streamed PCM/PSG audio, and zero-disk runtime; featured in Apple2TS New Releases ([PR #445](https://github.com/ct6502/apple2ts/pull/445)).
 
 ## Converters & Compilers
