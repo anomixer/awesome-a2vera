@@ -34,6 +34,7 @@ The A2VERA concept and emulator integration were initially pioneered by Michael 
 
 ## Games
 
+- [Alter Ego (Apple II + VERA)](https://github.com/anomixer/alter-ego-vera) — Port of the NES homebrew platform game with all 26 levels, VERA tile and sprite graphics, and both streamed PSG and live FamiTone audio versions.
 - [cx16-othello (VERA)](https://github.com/anomixer/cx16-othello-vera) — Apple II + VERA port of the venerable Othello (reversi) game, featuring mouse click support for menu / font (W.I.P.).
 - [Freegemas (Apple //e VERA)](https://github.com/anomixer/freegemas) — Apple //e port of the open-source Bejeweled-style game, with 320×240 graphics, VERA hardware-sprite gems, keyboard and mouse controls (supports direct mouse operation in VERA Monitor [PR #491](https://github.com/ct6502/apple2ts/pull/491)), and PSG music / PCM effects.
 - [H.E.R.O. (Mine Rescue)](https://github.com/anomixer/x16-hero-vera) — Apple II + VERA port of the Activision classic, featuring smooth multi-directional scrolling tilemaps, dynamic multi-frame sprites, and an authentic PSG chiptune soundtrack; featured in Apple2TS New Releases ([PR #500](https://github.com/ct6502/apple2ts/pull/500)).
