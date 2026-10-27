@@ -2,7 +2,7 @@
 
 > A curated list of **Apple II VERA / A2VERA** resources — hardware, emulators, games, converters, and tools for bringing the VERA (Versatile Embedded Retro Adapter) FPGA video & sound card to the Apple II family.
 
-VERA is the FPGA graphics and sound system designed by Frank van den Hoef for the Commander X16, featuring tile and bitmap modes up to 256 colors, 128 hardware sprites, and a 16-voice PSG + PCM audio engine. With the **A2VERA** adapter card, the Apple II, II+, //e, and IIgs can drive a real VERA card in Slot 2 (`$C200`) or Slot 4 (`$C400`) — powering a growing ecosystem of emulators, demos, development tools, and arcade-grade game ports.
+VERA is the FPGA graphics and sound system designed by Frank van den Hoef for the Commander X16, featuring tile and bitmap modes up to 256 colors, 128 hardware sprites, and a 16-voice PSG + PCM audio engine. With the **A2VERA** adapter card, the Apple II, II+, //e, and IIgs can drive a real VERA card alongside an on-board Yamaha YM2151 / OPM2151 FM synthesis chip in Slot 2 (`$C200`/`$C2xx`) or Slot 4 (`$C400`/`$C4xx`) — powering a growing ecosystem of emulators, demos, development tools, and arcade-grade game ports.
 
 The A2VERA concept and emulator integration were initially pioneered by Michael Morrison, as presented in his [KansasFest 2026 Session](https://www.youtube.com/watch?v=XbqqLpzCAD4).
 
@@ -30,14 +30,14 @@ The A2VERA concept and emulator integration were initially pioneered by Michael 
 ## Emulators
 
 - [Apple2TS](https://github.com/ct6502/apple2ts) — Modern Apple II emulator in TypeScript featuring comprehensive VERA card emulation on Slot 2 (`$C200`) and Slot 4 (`$C400`), real-time VERA Monitor debugger ([PR #395](https://github.com/ct6502/apple2ts/pull/395)), automated slot URL parameters ([PR #415](https://github.com/ct6502/apple2ts/pull/415), [PR #451](https://github.com/ct6502/apple2ts/pull/451)), rendering performance boosts ([PR #469](https://github.com/ct6502/apple2ts/pull/469)), and native VERA SPI SD card mounting with animated drive UI ([PR #472](https://github.com/ct6502/apple2ts/pull/472)).
-- [AppleWin (anomixer fork)](https://github.com/anomixer/AppleWin) — Windows emulator fork with native-speed VERA support, running VERA titles smoothly at 60 FPS.
+- [AppleWin (anomixer fork)](https://github.com/anomixer/AppleWin) — Windows emulator fork with native-speed VERA and Yamaha YM2151 / OPM2151 FM chip emulation on Slot 2 (`$C2xx`) and Slot 4 (`$C4xx`), running VERA graphics and authentic Commander X16-grade audio (PSG + PCM + FM) smoothly at 60 FPS.
 
 ## Games
 
 - [Alter Ego (Apple II + VERA)](https://github.com/anomixer/alter-ego-vera) — Port of the NES homebrew platform game with all 26 levels, VERA tile and sprite graphics, and both streamed PSG and live FamiTone audio versions.
-- [cx16-othello (VERA)](https://github.com/anomixer/cx16-othello-vera) — Apple II + VERA port of the venerable Othello (reversi) game, featuring mouse click support for menu / font (W.I.P.).
+- [cx16-othello (VERA)](https://github.com/anomixer/cx16-othello-vera) — Apple II + VERA port of the venerable Othello (reversi) game, featuring mouse click support for menu and font options.
 - [Freegemas (Apple //e VERA)](https://github.com/anomixer/freegemas) — Apple //e port of the open-source Bejeweled-style game, with 320×240 graphics, VERA hardware-sprite gems, keyboard and mouse controls (supports direct mouse operation in VERA Monitor [PR #491](https://github.com/ct6502/apple2ts/pull/491)), and PSG music / PCM effects.
-- [H.E.R.O. (Mine Rescue)](https://github.com/anomixer/x16-hero-vera) — Apple II + VERA port of the Activision classic, featuring smooth multi-directional scrolling tilemaps, dynamic multi-frame sprites, and an authentic PSG chiptune soundtrack; featured in Apple2TS New Releases ([PR #500](https://github.com/ct6502/apple2ts/pull/500)).
+- [Mine Rescue (H.E.R.O.)](https://github.com/anomixer/x16-hero-vera) — Apple II + VERA port of the Activision classic, featuring smooth multi-directional scrolling tilemaps, dynamic multi-frame sprites, and an authentic PSG chiptune soundtrack; featured in Apple2TS New Releases ([PR #500](https://github.com/ct6502/apple2ts/pull/500)).
 - [Time Pilot (VERA)](https://github.com/anomixer/Time-Pilot) — Full port of Konami's 1982 arcade classic to Apple II + VERA: dual-slot support, 128 hardware sprites with 32-way rotation, VRAM-streamed PCM/PSG audio, and zero-disk runtime; featured in Apple2TS New Releases ([PR #445](https://github.com/ct6502/apple2ts/pull/445)).
 
 ## Converters & Compilers
@@ -52,9 +52,9 @@ The A2VERA concept and emulator integration were initially pioneered by Michael 
 
 - [a2vera](https://github.com/misterblack1/a2vera) — 6502 assembly test routines and diagnostics suite for driving the VERA module on a real Apple II, including SD-DIAG, SD-HIRES, and SD-SLIDES.
 - [Furnace](https://github.com/tildearrow/furnace) — Multi-system chiptune tracker with first-class native support for both the VERA 16-channel PSG and the YM2151 / OPM2151 FM synthesis chips (Commander X16 / cross-platform VERA tool).
-- [veramusic](https://github.com/anomixer/veramusic) — R7 Apple II VERA jukebox with six PSG and 8 kHz PCM tracks on a bootable 32 MB HDV, plus a two-track floppy image; streams ordinary ProDOS files and preloads floppy music into VERA VRAM.
+- [veramusic](https://github.com/anomixer/veramusic) — Apple II VERA audio suite: includes a 6-track PSG + 8 kHz PCM jukebox, floppy VRAM preload player, and `melodius.hdv` (a 94-track ZSM/ZCM streaming player). Automatically detects both the VERA card and FM chip on Slot 2 (`$C2xx`) or Slot 4 (`$C4xx`) to unleash full Commander X16-grade audio (PSG + PCM + FM).
 - [verasdtool](https://github.com/anomixer/verasdtool) — VERA SD toolkit with a hex sector editor, an Apple2TS-compatible FAT32 formatter, and an optimized resident ProDOS block driver for raw volumes up to 32 MiB and A2Desktop. Its FAT32 file client remains preliminary and is not a ProDOS filesystem driver.
-- [veratest](https://github.com/anomixer/veratest) — Comprehensive graphics and sound test demo disk for real Apple II hardware and Apple2TS, featuring a 32MB 375-image 256-color musical slideshow.
+- [veratest](https://github.com/anomixer/veratest) — Comprehensive graphics and sound test suite for real Apple II hardware, AppleWin, and Apple2TS. Includes `veratest.po` (7-in-1 flagship interactive test suite with Mode 7, sprites, text modes, and FM+PSG chiptunes) and `slideshow.hdv` (32 MB 375-image 256-color slideshow), featuring dynamic auto-detection for both the VERA card and FM chip in Slot 2 (`$C2xx`) / Slot 4 (`$C4xx`).
 - [ZSound](https://github.com/ZeroByteOrg/zsound) — Standardized audio engine and toolset for VERA PSG, PCM, and YM2151 FM audio, defining the streaming `.ZSM` music format (Commander X16 audio framework).
 
 ## Documentation
